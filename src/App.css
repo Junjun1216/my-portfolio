@@ -23,6 +23,43 @@
   color: #61dafb;
 }
 
+.btn {
+  display: inline-block;
+  border: none;
+  background: #010440;
+  color: white;
+  padding: 7px 20px;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+  color: white;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -31,3 +68,4 @@
     transform: rotate(360deg);
   }
 }
+

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Navbar from './components/Navbar';
-import Layout from './components/Layout';
-import Quote from './components/Quote';
-
-import './App.css';
 import Welcome from "./components/Welcome";
 import Experience from "./components/Experience";
+import Sample from './components/Sample';
+import Contact from './components/Contact';
+
+import './App.css';
 
 class App extends Component {
 
@@ -13,12 +13,10 @@ class App extends Component {
     return (
           <div className="App">
             <Navbar />
-            <Quote/>
-              <Layout>
-                <Welcome/>
-                <br/>
+              <Welcome/>
                 <Experience/>
-              </Layout>
+              <Sample/>
+              <Contact/>
           </div>
     );
   }

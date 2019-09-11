@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  background: url("./resources/plateback.jpg");
 }
 
 .App-header {
@@ -19,14 +14,64 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome {
+  width: 100px;
+  height: 100px;
+
+}
+
+h2 {
+  font-size: 80px;
+  color: #bfbbbf;
+}
+
+.about {
+  z-index: -2;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.aboutContent {
+  text-align: left;
+  font-size: 30px;
+  font-style: normal;
+  color: #a5a1a5;
+  -webkit-transition: 0.5s;
+  -moz-transition: 1s;
+  -o-transition: 2s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.video {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portrait {
+  background-image: url("./resources/portrait.jpg");
+  height: 480px;
+  width: 453px;
+  float: right;
+  border-radius: 10px;
+  display: flex;
+}
+
+.portraitHeader {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
 }
 
 .btn {
   display: inline-block;
   border: none;
-  background: #010440;
+  background: #2b1441;
   color: white;
   padding: 7px 20px;
   margin: 0px 5px 0px 5px;
@@ -59,13 +104,3 @@
   opacity: 1;
   right: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-

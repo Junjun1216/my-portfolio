@@ -7,27 +7,31 @@ function Quote() {
     return (
         <Styles>
             <Jumbo fluid className="jumbo">
-                <div className="overlay"></div>
-                <Container>
-                    <h1>Welcome</h1>
+                <div className="overlay">                 </div>
+
+                <h3>Welcome</h3>
                     <p>Its Sydney Cosby not Bill Cosby.</p>
-                </Container>
             </Jumbo>
         </Styles>
     )
 }
 
 const Styles = styled.div`
+  .jumbotron {
+    margin-top: 0px;
+  }
+  
   .jumbo {
-    background: url(${starJar}) no-repeat fixed bottom;
+    background: url(${starJar}) no-repeat fixed bottom center;
     background-size: cover;
     color: #efefef;
-    height: 200px;
+    height: 300px;
     position: relative;
     z-index: -2;
+    margin-bottom: 0;
   }
   .overlay {
-    background-color: #000;
+    background-color: black;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -35,6 +39,10 @@ const Styles = styled.div`
     bottom: 0;
     right: 0;
     z-index: -1;
+  }
+  
+  h3 {
+    font-size: 100px;
   }
 `;
 

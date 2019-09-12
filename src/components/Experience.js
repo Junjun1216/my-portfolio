@@ -43,9 +43,10 @@ export class Experience extends Component {
                             alt = "vex"
                         ></img>
                         <p>
-                            Project Songfindrr is a song finder web-application that uses a combination of
-                            database query, web-scrape, and supporting search engines. For a more
-                            detailed description of the app, please click here.
+                            The Vex Robotics competition is a event I participated where students spend approximately
+                            5 month planning and building a mechanical robot to perform a specific task. In my case, we had to build a
+                            robot to deliver balls into a basket, and the team who manage to score the most amount of balls
+                            in the allowed time limit wins. View my CV on linkedin for details.
                         </p>
                     </div>
 
@@ -61,9 +62,10 @@ export class Experience extends Component {
                             alt = "vex"
                         ></img>
                         <p>
-                            Project Songfindrr is a song finder web-application that uses a combination of
-                            database query, web-scrape, and supporting search engines. For a more
-                            detailed description of the app, please click here.
+                            My first CO-OP work term where I was an Angular Test Developer at Caseware International,
+                            a software solution company specializing in auditing, accounting, and financia reports for
+                            both the government and private sectors. I primarily worked with both UI testing in Protractor,
+                            and unit testing in Karma on their ReviewCompTax Cloud platform.
                         </p>
                     </div>
 
@@ -72,15 +74,15 @@ export class Experience extends Component {
                             Received A+ in web development course CSCC09
                         </h4>
                         <img
-                            src = {require("../resources/stars.jpg")}
+                            src = {require("../resources/uoft.png")}
                             width = "600"
                             height = "350"
                             alt = "vex"
                         ></img>
                         <p>
-                            Project Songfindrr is a song finder web-application that uses a combination of
-                            database query, web-scrape, and supporting search engines. For a more
-                            detailed description of the app, please click here.
+                            A web-development course introducing the essentials of frontend, backend, restful api, api calls,
+                            html, and css. I took a strong interest in this course and excelled in it, receiving
+                            a letter grade above the class.
                         </p>
                     </div>
                 </div>
@@ -92,7 +94,6 @@ export class Experience extends Component {
 
 const EStyles = styled.div`
    .experience {
-        
         -webkit-transition: 1.5s;
         -moz-transition: 1.5s;
         -o-transition: 1.5s;
@@ -128,8 +129,8 @@ const EStyles = styled.div`
         font-size: 60px;
         font-style: normal;
         color: #a5a1a5;
-        margin-top: 150px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        padding-top: 100px;
     }
     
     p {

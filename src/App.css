@@ -54,8 +54,7 @@ h2 {
 }
 
 .portrait {
-  background-image: url("./resources/portrait.jpg");
-  height: 480px;
+  height: 600px;
   width: 453px;
   float: right;
   border-radius: 10px;

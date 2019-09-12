@@ -14,13 +14,14 @@ export class Experience extends Component {
                             Project Songfindrr
                         </h4>
                         <iframe
+                            title = "demo"
                             style = {{
                                 width: 600,
                                 height: 350
                             }}
                             src={`https://www.youtube.com/embed/vKWSeDDvsPc`}
                             frameBorder="0"
-                            allowfullscreen="true"
+                            allowFullScreen={true}
                             webkitallowfullscreen="true"
                             mozallowfullscreen="true"
                         />

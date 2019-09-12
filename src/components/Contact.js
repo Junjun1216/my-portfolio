@@ -9,16 +9,16 @@ export class Contact extends Component {
             <CStyles>
                 <div className="contact">
 
-                    <a href='https://www.linkedin.com/in/junchao-chen-17816b145/' target="_blank">
-                        <img className="contact-item" src = {require("../resources/linkedln.png")}/>
+                    <a href='https://www.linkedin.com/in/junchao-chen-17816b145/' target="_blank" rel="noopener noreferrer">
+                        <img className="contact-item" src = {require("../resources/linkedln.png")} alt="linkedln"/>
                     </a>
 
-                    <a href='https://www.facebook.com/astral.staraph' target="_blank">
-                        <img className="contact-item" src = {require("../resources/facebook.png")}/>
+                    <a href='https://www.facebook.com/astral.staraph' target="_blank" rel="noopener noreferrer">
+                        <img className="contact-item" src = {require("../resources/facebook.png")} alt="facebook"/>
                     </a>
 
-                    <a href='https://github.com/Junjun1216' target="_blank">
-                        <img className="contact-item" src = {require("../resources/github.png")}/>
+                    <a href='https://github.com/Junjun1216' target="_blank" rel="noopener noreferrer">
+                        <img className="contact-item" src = {require("../resources/github.png")} alt="github"/>
                     </a>
 
                 </div>

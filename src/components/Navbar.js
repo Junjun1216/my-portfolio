@@ -4,8 +4,8 @@ function Navbar() {
     return (
         <div style={NavbarStyle}>
             <header style = {{
-                "font-size": "30px",
-                "padding-left": "10px"
+                "fontSize": "30px",
+                "paddingLeft": "10px"
             }}>
                 Welcome Reader
             </header>
@@ -33,7 +33,6 @@ const NavbarStyle = {
     color: '#fff',
     textAlign: 'center',
     padding: '10px',
-    position: '-webkit-sticky',
     position: 'sticky',
     top: 0
 }

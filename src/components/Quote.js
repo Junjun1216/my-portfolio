@@ -9,8 +9,8 @@ function Quote() {
             <Jumbo fluid className="jumbo">
                 <div className="overlay">                 </div>
 
-                <h3>Welcome</h3>
-                    <p>Its Sydney Cosby not Bill Cosby.</p>
+                <h3>Welcome Reader</h3>
+                    <p>"Quality is not an act, it is a habit" - Aristotle</p>
             </Jumbo>
         </Styles>
     )
@@ -42,7 +42,7 @@ const Styles = styled.div`
   }
   
   h3 {
-    font-size: 100px;
+    font-size: 80px;
   }
 `;
 

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background: url("./resources/plateback.jpg");
 }
 
 .App-header {
@@ -14,6 +13,10 @@
   color: white;
 }
 
+.Content {
+  background: url("./resources/plateback.jpg");
+}
+
 .welcome {
   width: 100px;
   height: 100px;
@@ -23,6 +26,7 @@
 h2 {
   font-size: 80px;
   color: #bfbbbf;
+  padding-top: 50px;
 }
 
 .about {

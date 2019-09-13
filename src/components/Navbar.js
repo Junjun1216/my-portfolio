@@ -7,7 +7,7 @@ function Navbar() {
                 "fontSize": "30px",
                 "paddingLeft": "10px"
             }}>
-                Welcome Reader
+                Jun Chao Chen
             </header>
             <div style={Buttons}>
                 <button className="btn" id="welcomebtn"><span>About </span></button>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from './components/Navbar';
-import Welcome from "./components/Welcome";
+import About from "./components/About";
 import Experience from "./components/Experience";
 import Sample from './components/Sample';
 import Contact from './components/Contact';
@@ -16,7 +16,7 @@ class App extends Component {
             <Navbar />
               <Quote/>
               <div className="Content">
-                  <Welcome/>
+                  <About/>
                     <Experience/>
                   <Sample/>
                   <Contact/>

@@ -1,0 +1,20 @@
+.contact {
+    display: flex;
+    display-direction: horizontal;
+    justify-content: center;
+    color: black;
+    background: url("../resources/footer.jpg");
+    height: 100px;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.contact-item {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+}

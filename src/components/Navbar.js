@@ -7,7 +7,7 @@ function Navbar() {
                 "fontSize": "30px",
                 "paddingLeft": "10px"
             }}>
-                A Subtle Introduction
+                Michael's Portfolio
             </header>
             <div style={Buttons}>
                 <button className="btn" id="welcomebtn"><span>About </span></button>
@@ -24,7 +24,7 @@ const Buttons = {
     verticalAlign: 'center',
     display: 'flex',
     flexDirection: 'row'
-}
+};
 
 const NavbarStyle = {
     display: 'flex',
@@ -35,6 +35,6 @@ const NavbarStyle = {
     padding: '10px',
     position: 'sticky',
     top: 0
-}
+};
 
 export default Navbar;

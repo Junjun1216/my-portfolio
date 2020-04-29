@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import styled from "styled-components";
+import "../css/Sample.css";
+import {Container} from "react-bootstrap";
 
 export class Sample extends Component {
 
     render() {
         return (
-            <SStyles>
-                <div className="sample">
+            <Container  className="sample">
                     <h1>Songfindrr Description</h1>
                     Project Songfindrr is a lyrics search engine that uses a combination of elastic database query,
                     webscraping, and google custom search. Unlike most lyric search engines that includes a preloaded
@@ -26,32 +26,9 @@ export class Sample extends Component {
                     So in summary, songfindrr app is a lyrics search engine that uses cashing and live webscraping to
                     create a self maintaining ecosystem. To view the source code, please check out my github link at the bottom of the page.
                     Credits to my partners: Kasra Rahmani for coding the database, hosting, and Daniel Chan for creating the frontend!
-                </div>
-            </SStyles>
+            </Container>
         )
     }
 }
-
-const SStyles = styled.div`
-    .sample {
-        color: #a5a1a5;
-        display: block;
-        font-size: 30px;
-        margin: 60px 60px 60px 60px;
-        -webkit-transition: 1.5s;
-        -moz-transition: 1.5s;
-        -o-transition: 1.5s;
-        transition: 1.5s;
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    h1 {
-        font-size: 60px;
-        padding-top: 60px;
-    }
-    
-    
-`;
 
 export default Sample;

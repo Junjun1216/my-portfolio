@@ -23,31 +23,6 @@
 
 }
 
-h2 {
-  font-size: 80px;
-  color: #bfbbbf;
-  padding-top: 50px;
-}
-
-.about {
-  z-index: -2;
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.aboutContent {
-  text-align: left;
-  font-size: 30px;
-  font-style: normal;
-  color: #a5a1a5;
-  -webkit-transition: 0.5s;
-  -moz-transition: 1s;
-  -o-transition: 2s;
-  transition: 0.5s;
-  opacity: 0;
-  visibility: hidden;
-}
-
 .video {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -55,14 +30,6 @@ h2 {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-}
-
-.portrait {
-  height: 600px;
-  width: 453px;
-  float: right;
-  border-radius: 10px;
-  display: flex;
 }
 
 .portraitHeader {
@@ -106,4 +73,20 @@ h2 {
 .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+
+hr {
+  display: block;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 50%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #bfbbbf;
+  border-bottom: 1px solid white;
 }
